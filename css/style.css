@@ -304,7 +304,6 @@ header h1 {
   height: 220px;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
 }
 
 .chart-wrapper canvas {
