@@ -302,10 +302,13 @@ header h1 {
   max-width: 220px;
   margin: 0 auto;
   position: relative;
+  height: 220px;
 }
 
 .chart-wrapper canvas {
   touch-action: none;
+  width: 220px !important;
+  height: 220px !important;
 }
 
 .chart-legend {
