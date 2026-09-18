@@ -301,6 +301,11 @@ header h1 {
   width: 100%;
   max-width: 220px;
   margin: 0 auto;
+  position: relative;
+}
+
+.chart-wrapper canvas {
+  touch-action: none;
 }
 
 .chart-legend {

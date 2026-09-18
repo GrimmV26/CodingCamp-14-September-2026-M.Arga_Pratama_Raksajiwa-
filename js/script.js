@@ -306,6 +306,8 @@ function renderChart() {
     },
     options: {
       responsive: true,
+      maintainAspectRatio: true,
+      animation: { duration: 400 },
       plugins: {
         legend: { display: false },
         tooltip: {
