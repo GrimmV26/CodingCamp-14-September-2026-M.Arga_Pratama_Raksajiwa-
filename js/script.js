@@ -318,6 +318,11 @@ function renderChart() {
       },
     },
   });
+
+  // Detach Chart.js resize observer so mobile touch events can't shrink the chart
+  if (chart._resizeObserver) {
+    chart._resizeObserver.disconnect();
+  }
 }
 
 function getCategoryColor(cat) {
